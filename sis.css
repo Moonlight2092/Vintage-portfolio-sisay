@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+body {
+    background-color: #c9a2b7; /* Vintage cream color */
+    color: #3B2F2F; /* Dark brown */
+    font-family: 'Goudy Bookletter 1911', serif; /* Old-money style */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: hsl(321, 29%, 57%); /* Gold for elegance */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.profile img {
+    width:200px;
+    height: auto;
+    border: 5px solid #3B2F2F;
+    margin-top: 20px;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.about, .contact {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1e9262; /* Soft beige */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #8B5A2B; /* Rich brown */
+}
+
+.contact p {
+    font-size: 18px;
+}
